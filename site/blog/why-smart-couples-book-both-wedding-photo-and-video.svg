@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <radialGradient id="g1" cx="20%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#d8b078" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#d8b078" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="95%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#d8b078" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#0c0a08" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="120%" stop-color="#d8b078"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#0c0a08"/>
+  <rect width="1200" height="675" fill="url(#g1)"/>
+  <rect width="1200" height="675" fill="url(#g2)"/>
+  <g stroke="#d8b078" stroke-opacity="0.10" fill="none">
+    <circle cx="1010" cy="150" r="70"/><circle cx="1010" cy="150" r="150"/><circle cx="1010" cy="150" r="230"/><circle cx="1010" cy="150" r="310"/><circle cx="1010" cy="150" r="390"/>
+  </g>
+  <rect width="1200" height="675" fill="#808080" opacity="0.025" filter="url(#grain)"/>
+  <g font-family="Geist, Inter, system-ui, sans-serif">
+    <circle cx="84" cy="78" r="6" fill="#d8b078"/>
+    <text x="104" y="84" fill="#9aa1ad" font-size="22" letter-spacing="6" font-weight="500">FUTUREMK</text>
+    <text x="80" y="180" fill="#d8b078" font-size="20" letter-spacing="4" font-weight="600">VIDEOGRAPHY</text>
+    <text fill="url(#txt)" font-size="58" font-weight="600" letter-spacing="-1.5"><tspan x="80" y="354">WHY SMART COUPLES</tspan><tspan x="80" y="420">BOOK BOTH WEDDING</tspan><tspan x="80" y="486">PHOTO AND VIDEO</tspan></text>
+    <rect x="80" y="532" width="64" height="3" fill="#d8b078"/>
+    <text x="80" y="630" fill="#5d626d" font-size="20" letter-spacing="1">futuremk.com / insights</text>
+  </g>
+</svg>

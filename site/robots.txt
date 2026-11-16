@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Host: https://futuremk.com
+Sitemap: https://futuremk.com/sitemap.xml

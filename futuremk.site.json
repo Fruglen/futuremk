@@ -1,0 +1,193 @@
+{
+  "schema": "futuremk.site/v1",
+  "name": "Future MK",
+  "domain": "futuremk.com",
+  "builtWith": "claude",
+  "framework": "next (recovered as static HTML mirror of the live build output)",
+  "buildCommand": "",
+  "outputDir": "site",
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "sections": [
+        "about",
+        "capabilities",
+        "contact",
+        "process",
+        "services",
+        "standard",
+        "top",
+        "work"
+      ]
+    },
+    {
+      "path": "/blog",
+      "file": "blog.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/ai-content-engine-2026",
+      "file": "blog/ai-content-engine-2026.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/brand-photos-losing-customers",
+      "file": "blog/brand-photos-losing-customers.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/how-much-does-a-wedding-photographer-cost-in-2026",
+      "file": "blog/how-much-does-a-wedding-photographer-cost-in-2026.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/how-to-choose-a-wedding-photographer-you-won-t-regret",
+      "file": "blog/how-to-choose-a-wedding-photographer-you-won-t-regret.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/stop-boosting-posts",
+      "file": "blog/stop-boosting-posts.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/what-to-wear-for-your-engagement-photo-session",
+      "file": "blog/what-to-wear-for-your-engagement-photo-session.html",
+      "sections": []
+    },
+    {
+      "path": "/blog/why-smart-couples-book-both-wedding-photo-and-video",
+      "file": "blog/why-smart-couples-book-both-wedding-photo-and-video.html",
+      "sections": []
+    },
+    {
+      "path": "/privacy",
+      "file": "privacy.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/ai-marketing",
+      "file": "quote/ai-marketing.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/analytics",
+      "file": "quote/analytics.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/brand-identity",
+      "file": "quote/brand-identity.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/digital-marketing",
+      "file": "quote/digital-marketing.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/hosting",
+      "file": "quote/hosting.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/lead-generation",
+      "file": "quote/lead-generation.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/photography",
+      "file": "quote/photography.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/videography",
+      "file": "quote/videography.html",
+      "sections": []
+    },
+    {
+      "path": "/quote/web-design",
+      "file": "quote/web-design.html",
+      "sections": []
+    },
+    {
+      "path": "/services",
+      "file": "services.html",
+      "sections": [
+        "all-services"
+      ]
+    },
+    {
+      "path": "/services/ai-marketing",
+      "file": "services/ai-marketing.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/analytics",
+      "file": "services/analytics.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/brand-identity",
+      "file": "services/brand-identity.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/digital-marketing",
+      "file": "services/digital-marketing.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/hosting",
+      "file": "services/hosting.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/lead-generation",
+      "file": "services/lead-generation.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/photography",
+      "file": "services/photography.html",
+      "sections": [
+        "categories",
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/videography",
+      "file": "services/videography.html",
+      "sections": [
+        "categories",
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/services/web-design",
+      "file": "services/web-design.html",
+      "sections": [
+        "deliverables"
+      ]
+    },
+    {
+      "path": "/terms",
+      "file": "terms.html",
+      "sections": []
+    }
+  ],
+  "notes": "Recovered 2026-11-15 by mirroring the live site at futuremk.com (source chat lost). This is the built output, not the original Next.js source. Two server pieces are NOT in this copy: POST /api/contact (homepage contact form) and POST /api/quote (quote pages) were Vercel API routes; the forms render but submissions need an endpoint. Hero photos on services/photography and services/videography are local copies in assets/ (originals: Unsplash). Tracking snippet NOT yet added: insert <script async src=\"<platform>/t/<site_key>.js\"></script> just before </body> on every page once the site is registered and a site key exists."
+}
